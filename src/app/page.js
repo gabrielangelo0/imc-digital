@@ -9,23 +9,59 @@ export default function Home() {
         {/* Esquerda */}
         <section>
           {/* Topo */}
-          <div>
-            <h1 className="text-3xl font-bold">Calculadora <strong className="text-orange-400">IMC</strong></h1>
-            <p>Índice de Massa Corporal</p>
+          <div className="text-center">
+            <h1 className="text-3xl font-bold">
+              Calculadora <strong className="text-orange-400">IMC</strong>
+            </h1>
+            <p className="text-sm text-gray-500">Índice de Massa Corporal</p>
 
-            <h2>0</h2>
+            <h2 className="text-4xl text-emerald-500 font-bold">0</h2>
             <p>IMC</p>
 
-            <p>Peso normal</p>
+            <p className="text-lg text-emerald-500 font-semibold">
+              Peso normal
+            </p>
           </div>
 
           {/* Fim */}
-          <div>
-            <CircleIcon size={32} weight="fill" />
-            <p>Abaixo do peso</p>
+          <section>
+            <div className="flex items-center gap-3 justify-between">
+              {/* Elemento */}
+              <div className="flex items-center gap-3">
+                <CircleIcon size={14} weight="fill" />
+                <p>Abaixo do peso</p>
+              </div>
 
-            <p>{"<"} 18.5</p>
-          </div>
+              <p>{"<"} 18.5</p>
+            </div>
+            <div className="flex items-center gap-3 justify-between">
+              {/* Elemento */}
+              <div className="flex items-center gap-3">
+                <CircleIcon size={14} weight="fill" />
+                <p>Abaixo do peso</p>
+              </div>
+
+              <p>{"<"} 18.5</p>
+            </div>
+            <div className="flex items-center gap-3 justify-between">
+              {/* Elemento */}
+              <div className="flex items-center gap-3">
+                <CircleIcon size={14} weight="fill" />
+                <p>Abaixo do peso</p>
+              </div>
+
+              <p>{"<"} 18.5</p>
+            </div>
+            <div className="flex items-center gap-3 justify-between">
+              {/* Elemento */}
+              <div className="flex items-center gap-3">
+                <CircleIcon size={14} weight="fill" />
+                <p>Abaixo do peso</p>
+              </div>
+
+              <p>{"<"} 18.5</p>
+            </div>
+          </section>
         </section>
 
         {/* Direita */}
